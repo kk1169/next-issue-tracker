@@ -34,3 +34,12 @@ npm i zod
 
 
 ```
+
+
+
+
+
+
+```
+npm install --save react-simplemde-editor easymde
+```
