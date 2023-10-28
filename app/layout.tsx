@@ -19,7 +19,7 @@ export default function RootLayout({
         <Theme>
           <div className="font-roboto">
             <Navbar />
-            <main>{children}</main>
+            <main className="my-6">{children}</main>
           </div>
         </Theme>
       </body>
