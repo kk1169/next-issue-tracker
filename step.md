@@ -28,3 +28,9 @@ enum Status {
 npx prisma format
 npx prisma migrate dev
 ```
+## Create API
+```
+npm i zod
+
+
+```
