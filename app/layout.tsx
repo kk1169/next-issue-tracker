@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Theme } from "@radix-ui/themes";
 import "./globals.css";
 import Navbar from "./Navbar";
 
@@ -16,8 +16,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning={true} className="bg-slate-50">
-        <Navbar />
-        <main>{children}</main>
+        <Theme>
+          <div className="font-roboto">
+            <Navbar />
+            <main>{children}</main>
+          </div>
+        </Theme>
       </body>
     </html>
   );

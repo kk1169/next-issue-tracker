@@ -1,5 +1,10 @@
 import Image from "next/image";
+import { Flex, Text, Button } from "@radix-ui/themes";
 
 export default function Home() {
-  return <div>Application</div>;
+  return (
+    <div>
+      <Button>Let's go</Button>
+    </div>
+  );
 }
